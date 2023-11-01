@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebg"
+    tools:context=".home">
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:width="350dp"
+        android:drawableStart="@drawable/search_icon"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:background="@drawable/search_bar"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="30dp"
+        android:hint="Search..."
+        android:fontFamily="@font/popins"
+        android:textColor="@color/white"
+        />
+
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextText"
+        android:layout_marginTop="20dp">
+
+        <!-- First CardView aligned to the left -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="30dp"
+            android:layout_gravity="start">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/recipe_icon"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title for Card 1"
+                android:gravity="center"
+
+                android:padding="8dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Second CardView aligned to the right -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="30dp"
+            android:layout_gravity="end">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/meal_icon"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Label 2"
+                android:gravity="center"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Third CardView aligned to the left (new) -->
+        <!-- Add a LinearLayout with an ImageView and TextView for Label 3 -->
+
+        <!-- Fourth CardView aligned to the right (new) -->
+        <!-- Add a LinearLayout with an ImageView and TextView for Label 4 -->
+
+    </GridLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

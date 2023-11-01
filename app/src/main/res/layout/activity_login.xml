@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:layout_marginTop="280dp"
+        >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:fontFamily="@font/popins"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:id="@+id/un"
+            android:drawableEnd="@drawable/done_icon"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:fontFamily="@font/popins"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/pw"
+            android:textColor="@color/white"
+            android:fontFamily="@font/popins"
+            android:drawableEnd="@drawable/password_icon"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember me"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I forgot my password"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/white"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:fontFamily="@font/popins"
+            android:background="@drawable/login_btn"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Register here"
+            android:fontFamily="@font/popins"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:id="@+id/register"
+            />
+    </LinearLayout>
+</LinearLayout>

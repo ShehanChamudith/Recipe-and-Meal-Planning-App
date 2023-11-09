@@ -159,7 +159,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/food_1"
+                android:background="@drawable/food_2"
                 android:padding="10dp" />
 
             <LinearLayout
@@ -176,7 +176,7 @@
                     android:fontFamily="@font/popins"
                     android:gravity="center_horizontal"
                     android:paddingTop="5dp"
-                    android:text="Watalappan "
+                    android:text="chicken "
                     android:textColor="@color/white"
                     android:textSize="25dp" />
 
@@ -185,7 +185,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/popins"
                     android:paddingLeft="10dp"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                    android:text="Succulent chicken bites infused with bold Manchurian spices, irresistibly savory delight."
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -220,7 +220,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/food_1"
+                android:background="@drawable/week_plan"
                 android:padding="10dp" />
 
             <LinearLayout
@@ -237,7 +237,7 @@
                     android:fontFamily="@font/popins"
                     android:gravity="center_horizontal"
                     android:paddingTop="5dp"
-                    android:text="Watalappan "
+                    android:text="Week plan "
                     android:textColor="@color/white"
                     android:textSize="25dp" />
 
@@ -246,7 +246,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/popins"
                     android:paddingLeft="10dp"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                    android:text="Varied, nutritious dishes, simplifying your week with delicious, wholesome choices."
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -264,7 +264,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/food_1"
+                android:background="@drawable/diet_plan"
                 android:padding="10dp" />
 
             <LinearLayout
@@ -281,7 +281,7 @@
                     android:fontFamily="@font/popins"
                     android:gravity="center_horizontal"
                     android:paddingTop="5dp"
-                    android:text="Watalappan "
+                    android:text="diet plan "
                     android:textColor="@color/white"
                     android:textSize="25dp" />
 
@@ -290,7 +290,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/popins"
                     android:paddingLeft="10dp"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                    android:text="Portion-controlled, flavorful recipes promoting wellness, guilt-free indulgence in moderation."
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
             </LinearLayout>

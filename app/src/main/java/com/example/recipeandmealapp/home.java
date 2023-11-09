@@ -30,7 +30,7 @@ public class home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Open the new activity when imageView2 is clicked
-                Intent intent = new Intent(home.this, recipes_list.class);
+                Intent intent = new Intent(home.this, plan_list.class);
                 startActivity(intent);
             }
         });

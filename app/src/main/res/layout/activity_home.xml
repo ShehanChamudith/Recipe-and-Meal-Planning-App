@@ -2,12 +2,22 @@
 
 <!--    IM/2020/044-->
 
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@drawable/homebg"
     tools:context=".home">
@@ -15,7 +25,7 @@
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:width="350dp"
         android:drawableStart="@drawable/search_icon"
         android:ems="10"
@@ -29,8 +39,6 @@
         android:hint="Search..."
         android:fontFamily="@font/popins"
         android:textColor="@color/white" />
-
-
 
         <GridLayout
             android:id="@+id/gridLayout"
@@ -77,6 +85,8 @@
             </LinearLayout>
         </GridLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -89,7 +99,7 @@
             android:layout_height="wrap_content"
             android:text="Popular Recipes"
             android:textSize="24sp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="15dp"
             android:textStyle="bold"
             android:textColor="@color/white" />
     </LinearLayout>
@@ -99,33 +109,202 @@
         android:layout_height="130dp"
         android:orientation="horizontal">
 
-
         <ImageView
             android:id="@+id/food1"
-            android:layout_width="0dp"
+            android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight=".5"
             android:background="@drawable/food_1"
             android:layout_gravity="center"
             android:padding="10dp" />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/food_btn1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/food_des_btn"
+                android:fontFamily="@font/popins"
+                android:gravity="center_horizontal"
+                android:text="Watalappan "
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/popins"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/food_title"
-            android:layout_width="0dp"
+            android:id="@+id/food2"
+            android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/food_1"
             android:layout_gravity="center"
-            android:background="@drawable/des_1"
             android:padding="10dp" />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/food_btn2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/food_des_btn"
+                android:fontFamily="@font/popins"
+                android:gravity="center_horizontal"
+                android:text="Watalappan "
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/popins"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular Meal Plans"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/plan1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/food_1"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/plan_btn1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/food_des_btn"
+                android:fontFamily="@font/popins"
+                android:gravity="center_horizontal"
+                android:text="Watalappan "
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/popins"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/plan2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/food_1"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/plan_btn2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/food_des_btn"
+                android:fontFamily="@font/popins"
+                android:gravity="center_horizontal"
+                android:text="Watalappan "
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sri Lankan coconut custard pudding with jaggery, spices, and steamed."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/popins"/>
+        </LinearLayout>
     </LinearLayout>
 
 
 
 
+
 </LinearLayout>
+
+
+</ScrollView>
+

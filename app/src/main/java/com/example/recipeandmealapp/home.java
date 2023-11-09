@@ -2,7 +2,10 @@ package com.example.recipeandmealapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 public class home extends AppCompatActivity {
 
@@ -11,7 +14,26 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        ImageView imageView1 = findViewById(R.id.imageView1);
+        ImageView imageView2 = findViewById(R.id.imageView2);
 
+        imageView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the new activity when imageView1 is clicked
+                Intent intent = new Intent(home.this, recipes_list.class);
+                startActivity(intent);
+            }
+        });
+
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the new activity when imageView2 is clicked
+                Intent intent = new Intent(home.this, recipes_list.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

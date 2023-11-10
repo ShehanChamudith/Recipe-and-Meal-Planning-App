@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipe_1"
+    android:background="@color/purple">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/food_1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/popins"
+        android:text="Watalappan"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name"
+        app:srcCompat="@drawable/like" />
+
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/popins"
+        android:textColor="@color/white"
+
+        android:lineSpacingExtra="2dp"
+        android:text="Jaggery - 300g (Crushed) \n
+Sugar - 100g (Brown) \n
+Cardamom - 6 Pods \n
+Cinnamon Stick \n
+Water - 1/4 Cup \n
+Coconut Milk - 1/4 Cup (Thick) \n
+Vanilla Extract - 1 Tsp \n
+7 Eggs \n
+Pinch Of Salt \n
+Cashews to Top With \n \n
+Get the jaggery and crush it. Put them in a pan with a considerable height. Add 100g sugar, 6 cardamom pods, cinnamon stick and ¼ cup of water to it. Mix over medium low heat until the Jaggery is melted. Take off the flame and let it cool. Add ¼ cup of thick coconut milk and 1 teaspoon of vanilla extract to the cool jaggery mixture and mix it well. Get 7 large eggs, whisk it for about 15 seconds in a bowl with pinch of salt until egg white and York is incorporated. Pour in the jaggery mixture. Beat it for 1 minute until the jagger and eggs are well combined. Do not over beat. Strain the mixture. Ladle into a glass bowl (oven safe) or a steel bowl. Cover the bowl with aluminum foil. Put the bowl in the pre-heated oven and baked for 30-40 minutes in 180 degrees. Garnish with cashew nuts before serving! \n\n
+"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

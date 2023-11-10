@@ -28,7 +28,10 @@
                 android:layout_margin="5dp"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
-                app:cardBackgroundColor="@color/purple">
+                app:cardBackgroundColor="@color/purple"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/list1">
 
                 <ImageView
                     android:layout_width="1in"
@@ -91,7 +94,7 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingLeft="1.1in"
                     android:paddingTop="10dp"
-                    android:text="Watalappan"
+                    android:text="Chicken Devil"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
                     android:textSize="23sp"
@@ -107,7 +110,7 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingTop="10dp"
                     android:textColor="@color/white"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, and steamed."
+                    android:text="Crispy chicken bites stir-fried with vegetables in savory Manchurian sauce."
                     />
 
 
@@ -136,7 +139,8 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingLeft="1.1in"
                     android:paddingTop="10dp"
-                    android:text="Watalappan"
+                    android:text="Peanut Noodles
+"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
                     android:textSize="23sp"
@@ -152,7 +156,7 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingTop="10dp"
                     android:textColor="@color/white"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, and steamed."
+                    android:text="Thai peanut chicken noodles, savory blend with vibrant veggies and peanuts."
                     />
 
 
@@ -181,7 +185,8 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingLeft="1.1in"
                     android:paddingTop="10dp"
-                    android:text="Watalappan"
+                    android:text="Lemon Rice
+"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
                     android:textSize="23sp"
@@ -197,7 +202,7 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingTop="10dp"
                     android:textColor="@color/white"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, and steamed."
+                    android:text="Lemon-infused chicken and rice skillet, a quick, flavorful one-pan meal."
                     />
 
 
@@ -226,7 +231,8 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingLeft="1.1in"
                     android:paddingTop="10dp"
-                    android:text="Watalappan"
+                    android:text="Veg Hand Pies
+"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
                     android:textSize="23sp"
@@ -242,7 +248,7 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingTop="10dp"
                     android:textColor="@color/white"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, and steamed."
+                    android:text="Savory hand pies filled with lentil bolognese, baked golden perfection."
                     />
 
 

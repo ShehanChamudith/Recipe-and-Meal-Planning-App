@@ -12,12 +12,16 @@
     android:layout_height="wrap_content"
     app:layout_constraintStart_toStartOf="parent">
 
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="1920dp"
         android:background="@color/purple"
         android:orientation="vertical">
+
+
+
 
         <EditText
             android:id="@+id/editTextText"

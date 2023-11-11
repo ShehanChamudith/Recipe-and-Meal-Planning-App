@@ -25,5 +25,16 @@ public class recipes_list extends AppCompatActivity {
             }
         });
 
+        CardView cardView2 = findViewById(R.id.list2);
+        // Repeat for other CardViews...
+
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Handle click for the first CardView
+                startActivity(new Intent(recipes_list.this, recipe_2.class));
+            }
+        });
+
     }
 }

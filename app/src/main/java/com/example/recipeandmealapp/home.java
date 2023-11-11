@@ -15,6 +15,7 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
         ImageView imageView1 = findViewById(R.id.imageView1);
         ImageView imageView2 = findViewById(R.id.imageView2);
 
@@ -45,5 +46,40 @@ public class home extends AppCompatActivity {
             }
         });
 
+        Button btnRecipe2 = findViewById(R.id.food_btn2);
+        btnRecipe2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home.this, recipe_2.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnPlan1 = findViewById(R.id.plan_btn2);
+        btnPlan1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home.this, plan_1.class);
+                startActivity(intent);
+            }
+        });
+
+//        Button btnPlan2 = findViewById(R.id.plan_btn1);
+//        btnPlan2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(home.this, week_plan.class);
+//                startActivity(intent);
+//            }
+//        });
+
+
+
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+    }
+
 }

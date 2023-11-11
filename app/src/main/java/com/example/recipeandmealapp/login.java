@@ -50,6 +50,8 @@ public class login extends AppCompatActivity {
                     // If the credentials are correct, open the home activity
                     Intent intent = new Intent(login.this, home.class);
                     startActivity(intent);
+
+                    finish();
                 } else {
                     // If the credentials are incorrect, show an error message
                     Toast.makeText(login.this, "Invalid username or password", Toast.LENGTH_SHORT).show();

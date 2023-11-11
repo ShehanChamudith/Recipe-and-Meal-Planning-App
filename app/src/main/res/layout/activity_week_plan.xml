@@ -31,7 +31,7 @@
                 app:cardBackgroundColor="@color/purple"
                 android:clickable="true"
                 android:focusable="true"
-                android:id="@+id/list1">
+                android:id="@+id/day1">
 
                 <ImageView
                     android:layout_width="1in"
@@ -39,33 +39,23 @@
                     android:layout_margin="5dp"
                     android:background="@color/purple"
                     android:elevation="3dp"
-                    android:src="@drawable/food_1"/>
+                    android:src="@drawable/d1"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:paddingLeft="1.1in"
-                    android:paddingTop="10dp"
-                    android:text="Watalappan"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 01"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="1.1in"
-                    android:layout_marginTop="40dp"
-                    android:textSize="15dp"
-                    android:fontFamily="@font/popins"
-                    android:layout_gravity="center_horizontal"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/white"
-                    android:text="Sri Lankan coconut custard pudding with jaggery, and steamed."
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
                     />
+
 
 
             </androidx.cardview.widget.CardView>
@@ -80,7 +70,7 @@
                 app:cardBackgroundColor="@color/purple"
                 android:clickable="true"
                 android:focusable="true"
-                android:id="@+id/list2">
+                android:id="@+id/day2">
 
                 <ImageView
                     android:layout_width="1in"
@@ -88,32 +78,21 @@
                     android:layout_margin="5dp"
                     android:background="@color/purple"
                     android:elevation="3dp"
-                    android:src="@drawable/food_2"/>
+                    android:src="@drawable/d2"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:paddingLeft="1.1in"
-                    android:paddingTop="10dp"
-                    android:text="Chicken Devil"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 02"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="1.1in"
-                    android:layout_marginTop="40dp"
-                    android:textSize="15dp"
-                    android:fontFamily="@font/popins"
-                    android:layout_gravity="center_horizontal"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/white"
-                    android:text="Crispy chicken bites stir-fried with vegetables in savory Manchurian sauce."
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
                     />
 
 
@@ -125,7 +104,10 @@
                 android:layout_margin="5dp"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
-                app:cardBackgroundColor="@color/purple">
+                app:cardBackgroundColor="@color/purple"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/day3">
 
                 <ImageView
                     android:layout_width="1in"
@@ -133,33 +115,21 @@
                     android:layout_margin="5dp"
                     android:background="@color/purple"
                     android:elevation="3dp"
-                    android:src="@drawable/food_3"/>
+                    android:src="@drawable/d3"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:paddingLeft="1.1in"
-                    android:paddingTop="10dp"
-                    android:text="Peanut Noodles
-"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 03"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="1.1in"
-                    android:layout_marginTop="40dp"
-                    android:textSize="15dp"
-                    android:fontFamily="@font/popins"
-                    android:layout_gravity="center_horizontal"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/white"
-                    android:text="Thai peanut chicken noodles, savory blend with vibrant veggies and peanuts."
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
                     />
 
 
@@ -171,7 +141,10 @@
                 android:layout_margin="5dp"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
-                app:cardBackgroundColor="@color/purple">
+                app:cardBackgroundColor="@color/purple"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/day4">
 
                 <ImageView
                     android:layout_width="1in"
@@ -179,33 +152,21 @@
                     android:layout_margin="5dp"
                     android:background="@color/purple"
                     android:elevation="3dp"
-                    android:src="@drawable/food_4"/>
+                    android:src="@drawable/d4"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:paddingLeft="1.1in"
-                    android:paddingTop="10dp"
-                    android:text="Lemon Rice
-"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 04"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="1.1in"
-                    android:layout_marginTop="40dp"
-                    android:textSize="15dp"
-                    android:fontFamily="@font/popins"
-                    android:layout_gravity="center_horizontal"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/white"
-                    android:text="Lemon-infused chicken and rice skillet, a quick, flavorful one-pan meal."
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
                     />
 
 
@@ -217,7 +178,10 @@
                 android:layout_margin="5dp"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
-                app:cardBackgroundColor="@color/purple">
+                app:cardBackgroundColor="@color/purple"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/day5">
 
                 <ImageView
                     android:layout_width="1in"
@@ -225,37 +189,102 @@
                     android:layout_margin="5dp"
                     android:background="@color/purple"
                     android:elevation="3dp"
-                    android:src="@drawable/food_5"/>
+                    android:src="@drawable/d5"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:paddingLeft="1.1in"
-                    android:paddingTop="10dp"
-                    android:text="Veg Hand Pies
-"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 05"
                     android:fontFamily="@font/popins"
                     android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="1.1in"
-                    android:layout_marginTop="40dp"
-                    android:textSize="15dp"
-                    android:fontFamily="@font/popins"
-                    android:layout_gravity="center_horizontal"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/white"
-                    android:text="Savory hand pies filled with lentil bolognese, baked golden perfection."
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
                     />
 
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/purple"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/day6">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/purple"
+                    android:elevation="3dp"
+                    android:src="@drawable/d6"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 06"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/purple"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/day7">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/purple"
+                    android:elevation="3dp"
+                    android:src="@drawable/d7"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="150dp"
+                    android:paddingTop="60dp"
+                    android:text="Day 07"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
 
 
 
